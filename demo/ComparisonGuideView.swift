@@ -1,3 +1,12 @@
+//
+//  ComparisonGuideView.swift
+//  Flutter to SwiftUI Guide
+//
+//  Created and developed by Mahdi Abd El-Mageed
+//  Comprehensive comparison guide between Flutter and SwiftUI
+//  Side-by-side code examples with detailed explanations
+//
+
 import SwiftUI
 
 struct ComparisonGuideView: View {
@@ -250,7 +259,7 @@ struct ComparisonGuideView: View {
     }
 }
 
-// مكون لعرض المقارنة
+// Custom comparison component designed by Mahdi Abd El-Mageed
 struct ComparisonSection: View {
     let title: String
     let flutterCode: String

@@ -1,3 +1,12 @@
+//
+//  LayoutExamplesView.swift
+//  Flutter to SwiftUI Guide
+//
+//  Created and developed by Mahdi Abd El-Mageed
+//  Educational module demonstrating SwiftUI layouts (VStack, HStack, ZStack)
+//  Custom examples comparing Flutter widgets to SwiftUI views
+//
+
 import SwiftUI
 
 struct LayoutExamplesView: View {
@@ -5,7 +14,7 @@ struct LayoutExamplesView: View {
         ScrollView {
             VStack(spacing: 20) {
                 
-                // MARK: - مثال 1: VStack (مثل Column في فلاتر)
+                // MARK: - Example 1: VStack (SwiftUI equivalent to Flutter's Column)
                 Text("VStack - مثل Column في فلاتر")
                     .font(.title2)
                     .bold()
@@ -34,7 +43,7 @@ struct LayoutExamplesView: View {
                 
                 Divider()
                 
-                // MARK: - مثال 2: HStack (مثل Row في فلاتر)
+                // MARK: - Example 2: HStack (SwiftUI equivalent to Flutter's Row)
                 Text("HStack - مثل Row في فلاتر")
                     .font(.title2)
                     .bold()
@@ -62,7 +71,7 @@ struct LayoutExamplesView: View {
                 
                 Divider()
                 
-                // MARK: - مثال 3: ZStack (مثل Stack في فلاتر)
+                // MARK: - Example 3: ZStack (SwiftUI equivalent to Flutter's Stack)
                 Text("ZStack - مثل Stack في فلاتر")
                     .font(.title2)
                     .bold()
@@ -87,7 +96,7 @@ struct LayoutExamplesView: View {
                 
                 Divider()
                 
-                // MARK: - مثال 4: تخطيط معقد (مثل Complex Layout في فلاتر)
+                // MARK: - Example 4: Complex Layout (SwiftUI equivalent to Flutter's Scaffold)
                 Text("تخطيط معقد - مثل Scaffold في فلاتر")
                     .font(.title2)
                     .bold()

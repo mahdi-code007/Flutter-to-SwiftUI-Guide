@@ -1,3 +1,12 @@
+//
+//  AdvancedExamplesView.swift
+//  Flutter to SwiftUI Guide
+//
+//  Created and developed by Mahdi Abd El-Mageed
+//  Advanced SwiftUI examples: Animations, Gestures, Custom Components
+//  Complex UI patterns and interactions for experienced developers
+//
+
 import SwiftUI
 
 struct AdvancedExamplesView: View {

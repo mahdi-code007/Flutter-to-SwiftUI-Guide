@@ -1,3 +1,12 @@
+//
+//  TabViewExamplesView.swift
+//  Flutter to SwiftUI Guide
+//
+//  Created and developed by Mahdi Abd El-Mageed
+//  TabView navigation examples: Bottom Navigation, Page Views, Badges
+//  SwiftUI equivalents to Flutter's BottomNavigationBar and PageView
+//
+
 import SwiftUI
 
 struct TabViewExamplesView: View {
@@ -84,7 +93,7 @@ struct HomeTabContent: View {
                         .bold()
                         .foregroundColor(.blue)
                     
-                    // مقارنة مع Flutter
+                    // Flutter vs SwiftUI Comparison - Educational content by Mahdi
                     VStack(alignment: .trailing, spacing: 15) {
                         Text("مقارنة TabView مع Flutter")
                             .font(.title2)

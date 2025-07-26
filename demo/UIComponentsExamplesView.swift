@@ -1,3 +1,12 @@
+//
+//  UIComponentsExamplesView.swift
+//  Flutter to SwiftUI Guide
+//
+//  Created and developed by Mahdi Abd El-Mageed
+//  Advanced UI components: Bottom Sheets, Alerts, Date Pickers, Image Pickers
+//  SwiftUI equivalents to Flutter's showModalBottomSheet and dialogs
+//
+
 import SwiftUI
 import PhotosUI
 

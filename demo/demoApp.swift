@@ -1,8 +1,10 @@
 //
 //  demoApp.swift
-//  demo
+//  Flutter to SwiftUI Guide
 //
-//  Created by Mahdi Abd El-Mageed on 09/07/2025.
+//  Created and developed by Mahdi Abd El-Mageed on 09/07/2025.
+//  Main app entry point with Arabic RTL support
+//  Custom implementation for educational purposes
 //
 
 import SwiftUI

@@ -1,3 +1,12 @@
+//
+//  ListExamplesView.swift
+//  Flutter to SwiftUI Guide
+//
+//  Created and developed by Mahdi Abd El-Mageed
+//  Educational module for Lists, Forms, and Navigation patterns
+//  SwiftUI equivalents to Flutter's ListView and Navigator
+//
+
 import SwiftUI
 
 struct ListExamplesView: View {
@@ -9,7 +18,7 @@ struct ListExamplesView: View {
         ScrollView {
             VStack(spacing: 30) {
                 
-                // MARK: - مثال 1: List بسيط (مثل ListView في فلاتر)
+                // MARK: - Example 1: Simple List (SwiftUI equivalent to ListView in Flutter)
                 VStack(alignment: .trailing) {
                     Text("List بسيط - مثل ListView في فلاتر")
                         .font(.title2)
@@ -85,7 +94,7 @@ struct ListExamplesView: View {
                     }
                 }
                 
-                // MARK: - مثال 3: NavigationLink (مثل Navigator.push في فلاتر)
+                // MARK: - Example 3: NavigationLink (SwiftUI equivalent to Navigator.push in Flutter)
                 VStack(alignment: .trailing) {
                     Text("Navigation - مثل Navigator.push في فلاتر")
                         .font(.title2)
@@ -126,7 +135,7 @@ struct ListExamplesView: View {
                     .padding(.horizontal)
                 }
                 
-                // MARK: - مثال 4: Form (مثل Form في فلاتر)
+                // MARK: - Example 4: Form (SwiftUI equivalent to Form in Flutter)
                 VStack(alignment: .trailing) {
                     Text("Form - مثل Form في فلاتر")
                         .font(.title2)

@@ -1,8 +1,10 @@
 //
 //  ContentView.swift
-//  demo
+//  Flutter to SwiftUI Guide
 //
-//  Created by Mahdi Abd El-Mageed on 09/07/2025.
+//  Created and developed by Mahdi Abd El-Mageed on 09/07/2025.
+//  Educational app for Flutter developers learning SwiftUI
+//  All code written from scratch with custom implementations
 //
 
 import SwiftUI
@@ -23,21 +25,21 @@ struct ContentView: View {
                     .foregroundColor(.gray)
                     .padding(.bottom)
                 
-                // الأمثلة الأساسية
+                // Basic Examples Section - Custom implementation by Mahdi Abd El-Mageed
                 VStack(spacing: 15) {
-                    // مثال بسيط على الفور
+                    // Quick Interactive Example - Shows immediate SwiftUI concepts
                     VStack {
                         Text("مثال بسيط:")
                             .font(.title3)
                             .bold()
                         
                         HStack {
-                            // نظير Icon widget في فلاتر
+                            // SwiftUI equivalent to Flutter's Icon widget
                             Image(systemName: "heart.fill")
                                 .font(.system(size: 30))
                                 .foregroundColor(.red)
                             
-                            // نظير Text widget في فلاتر
+                            // SwiftUI equivalent to Flutter's Text widget
                             Text("مرحباً بك!")
                                 .font(.title2)
                                 .foregroundColor(.blue)
@@ -47,7 +49,7 @@ struct ContentView: View {
                         .cornerRadius(10)
                     }
                     
-                    // قائمة الأمثلة
+                    // Navigation Examples List - Educational modules designed by Mahdi
                     VStack(spacing: 10) {
                         NavigationLink(destination: LayoutExamplesView()) {
                             HStack {

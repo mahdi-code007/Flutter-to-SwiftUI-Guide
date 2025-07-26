@@ -1,7 +1,16 @@
+//
+//  StateManagementExamplesView.swift
+//  Flutter to SwiftUI Guide
+//
+//  Created and developed by Mahdi Abd El-Mageed
+//  Educational module demonstrating SwiftUI state management (@State, @Binding)
+//  Custom examples showing SwiftUI reactive programming patterns
+//
+
 import SwiftUI
 
 struct StateManagementExamplesView: View {
-    // مثل StatefulWidget في فلاتر
+    // SwiftUI state management - equivalent to StatefulWidget in Flutter
     @State private var counter = 0
     @State private var isToggled = false
     @State private var sliderValue = 0.5
@@ -11,7 +20,7 @@ struct StateManagementExamplesView: View {
         ScrollView {
             VStack(spacing: 30) {
                 
-                // MARK: - مثال 1: Counter (مثل setState في فلاتر)
+                // MARK: - Example 1: Counter (SwiftUI equivalent to setState in Flutter)
                 VStack {
                     Text("Counter - مثل setState في فلاتر")
                         .font(.title2)
@@ -45,7 +54,7 @@ struct StateManagementExamplesView: View {
                 
                 Divider()
                 
-                // MARK: - مثال 2: Toggle Switch (مثل Checkbox في فلاتر)
+                // MARK: - Example 2: Toggle Switch (SwiftUI equivalent to Switch in Flutter)
                 VStack {
                     Text("Toggle Switch - مثل Switch في فلاتر")
                         .font(.title2)
@@ -66,7 +75,7 @@ struct StateManagementExamplesView: View {
                 
                 Divider()
                 
-                // MARK: - مثال 3: Slider (مثل Slider في فلاتر)
+                // MARK: - Example 3: Slider (SwiftUI equivalent to Slider in Flutter)
                 VStack {
                     Text("Slider - مثل Slider في فلاتر")
                         .font(.title2)
@@ -92,7 +101,7 @@ struct StateManagementExamplesView: View {
                 
                 Divider()
                 
-                // MARK: - مثال 4: TextField (مثل TextFormField في فلاتر)
+                // MARK: - Example 4: TextField (SwiftUI equivalent to TextField in Flutter)
                 VStack {
                     Text("TextField - مثل TextField في فلاتر")
                         .font(.title2)
