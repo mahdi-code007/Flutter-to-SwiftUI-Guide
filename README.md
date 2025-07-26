@@ -204,26 +204,21 @@ TabView {
 
 <div align="center">
 
-### Main Navigation & Core Features
+### Core Features & Learning Modules
 
-| Main Menu | Layout Examples | State Management |
-|-----------|----------------|------------------|
-| ![Main Menu](Screenshots/main-menu.png) | ![Layout Examples](Screenshots/layout-examples.png) | ![State Management](Screenshots/state-management.png) |
-| *Interactive menu with Arabic RTL support* | *VStack, HStack, ZStack demonstrations* | *Counter, Toggle, Slider examples* |
+| Main Menu | Layout Examples | State Management | Comparison Guide |
+|-----------|----------------|------------------|------------------|
+| ![Main Menu](Screenshots/main-menu.png) | ![Layout Examples](Screenshots/layout-examples.png) | ![State Management](Screenshots/state-management.png) | ![Comparison Guide](Screenshots/comparison-guide.png) |
+| *Interactive menu with Arabic RTL support* | *VStack, HStack, ZStack demonstrations* | *Counter, Toggle, Slider examples* | *Side-by-side Flutter vs SwiftUI code* |
 
-### Advanced Features & Comparisons
+### Advanced Features & UI Components
 
-| Comparison Guide | Advanced Examples | UI Components |
-|-----------------|-------------------|---------------|
-| ![Comparison Guide](Screenshots/comparison-guide.png) | ![Advanced Examples](Screenshots/advanced-examples.png) | ![UI Components](Screenshots/ui-components.png) |
-| *Side-by-side Flutter vs SwiftUI code* | *Animations and gesture recognition* | *Bottom sheets, alerts, pickers* |
+| Advanced Examples | UI Components | TabView Navigation | Lists & Forms |
+|-------------------|---------------|-------------------|---------------|
+| ![Advanced Examples](Screenshots/advanced-examples.png) | ![UI Components](Screenshots/ui-components.png) | ![TabView](Screenshots/tabview-navigation.png) | ![Lists](Screenshots/lists-forms.png) |
+| *Animations and gesture recognition* | *Bottom sheets, alerts, date pickers* | *Tab-based navigation with badges* | *Interactive lists and forms* |
 
-### Navigation & TabView Examples
-
-| TabView Navigation | Lists & Forms | Arabic RTL Support |
-|-------------------|---------------|-------------------|
-| ![TabView](Screenshots/tabview-navigation.png) | ![Lists](Screenshots/lists-forms.png) | ![RTL Support](Screenshots/rtl-support.png) |
-| *Tab-based navigation with badges* | *Interactive lists and forms* | *Full right-to-left layout support* |
+> 🌟 **Note**: All screenshots showcase the app's full Arabic RTL (Right-to-Left) support with native iOS design patterns.
 
 </div>
 
