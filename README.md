@@ -202,13 +202,30 @@ TabView {
 
 ## 📸 Screenshots
 
+<div align="center">
+
+### Main Navigation & Core Features
+
 | Main Menu | Layout Examples | State Management |
 |-----------|----------------|------------------|
+| ![Main Menu](Screenshots/main-menu.png) | ![Layout Examples](Screenshots/layout-examples.png) | ![State Management](Screenshots/state-management.png) |
 | *Interactive menu with Arabic RTL support* | *VStack, HStack, ZStack demonstrations* | *Counter, Toggle, Slider examples* |
+
+### Advanced Features & Comparisons
 
 | Comparison Guide | Advanced Examples | UI Components |
 |-----------------|-------------------|---------------|
+| ![Comparison Guide](Screenshots/comparison-guide.png) | ![Advanced Examples](Screenshots/advanced-examples.png) | ![UI Components](Screenshots/ui-components.png) |
 | *Side-by-side Flutter vs SwiftUI code* | *Animations and gesture recognition* | *Bottom sheets, alerts, pickers* |
+
+### Navigation & TabView Examples
+
+| TabView Navigation | Lists & Forms | Arabic RTL Support |
+|-------------------|---------------|-------------------|
+| ![TabView](Screenshots/tabview-navigation.png) | ![Lists](Screenshots/lists-forms.png) | ![RTL Support](Screenshots/rtl-support.png) |
+| *Tab-based navigation with badges* | *Interactive lists and forms* | *Full right-to-left layout support* |
+
+</div>
 
 ## 🏗 Architecture
 
